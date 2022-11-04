@@ -1,0 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package TheSmurfs;
+
+/**
+ *
+ * @author kutaybil
+ */
+public class node {
+    int code;
+    boolean passed;
+
+    public node(int code, boolean passed) {
+        this.code = code;
+        this.passed = passed;
+    }
+}
